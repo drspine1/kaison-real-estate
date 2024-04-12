@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  background-color:whitesmoke;
+}
+.hero-component{
+  background: linear-gradient(rgba(3, 18, 78, 0.7),hwb(223 0% 97% / 0.461)), url("/images/propertybg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 6rem);
+  width: 100%;
+}
+.how-container div h1{
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+.nav-links{
+  transition: 0.5s;
+}
+.test{
+ display: flex;
+flex-direction: row;
+width: 250px;
+margin: auto;
+text-transform: uppercase;
+}
+.test::before, .test::after{
+  content: " ";
+  flex: 1 1;
+  border-bottom: 0.13em solid blue;
+  margin: auto;
+}
+.test::before{
+  margin-right: 10px;
+}
+.test::after{
+  margin-left: 10px;
+}
+
+
+
+
+
+.small-tag{
+display: flex;
+flex-direction: row;
+width: 200px;
+margin: auto;
+text-transform: uppercase;
+}
+.small-tag::before, .small-tag::after{
+  content: " ";
+  flex: 1 1;
+  border-bottom: 0.13em solid blue;
+  margin: auto;
+}
+.small-tag::before{
+  margin-right: 10px;
+}
+.small-tag::after{
+  margin-left: 10px;
+
+}
+
+.buy-desc{
+  transition: 0.5s;
+}
