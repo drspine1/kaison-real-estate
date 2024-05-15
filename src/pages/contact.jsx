@@ -40,7 +40,7 @@ const Contact = () => {
           <p className="text-[#2c1e1eec] text-lg font-semibold">donkhan@gmail.com</p>
         </div>
       </div>
-      <form className="flex-[50%] bg-indigo-800 p-12 rounded-md mt-28 md:mt-0" >
+      <form className="flex-[50%] bg-indigo-800 p-6 md:p-12 rounded-md mt-28 md:mt-0" >
         <input type="text" placeholder="full name" className="w-full mb-8 outline-none p-4 text-lg rounded"/>
         <input type="email" placeholder="email w-id" className="w-full mb-8 outline-none p-4 text-lg rounded"/>
         <input type="phone" placeholder="phone" className="w-full mb-8 outline-none p-4 text-lg rounded"/>

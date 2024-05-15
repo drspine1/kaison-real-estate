@@ -30,7 +30,7 @@ const Service = () => {
           <div   className="bg-[rgb(85,68,237)] p-5">
           <h1 className="text-2xl font-bold capitalize text-white leading-snug mb-3">listings</h1>
             <p className="text-left  text-[hsl(0,0%,90%)] text-lg pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla voluptatum dicta vel. Non, praesentium!</p>
-            <Link to="/listing" className="uppercase font-bold text-white underline ">more about listing</Link>
+            <Link to="/property" className="uppercase font-bold text-white underline ">more about listing</Link>
           </div>
         </div>
       </div>

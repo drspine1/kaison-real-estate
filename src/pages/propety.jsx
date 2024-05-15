@@ -48,18 +48,18 @@ const Property = () => {
                   
               <div className="property-cat mt-4 border-t px-5">
                   <div className="flex justify-between mt-3 items-center">
-                  <h3 className="flex items-center text-lg lg:text-sm"><HiMiniSquares2X2 className="mr-2 font-bold text-indigo-400 text-xl"/>{foot}</h3>
-                <h3 className="flex items-center text-lg lg:text-sm"><FaCarSide className="mr-2 font-bold text-indigo-400 text-xl"/>{garage}</h3>
+                  <h3 className="flex items-center text-lg lg:text-sm"><HiMiniSquares2X2 className="mr-2 font-bold text-indigo-400 text-lg md:text-xl"/>{foot}</h3>
+                <h3 className="flex items-center text-lg lg:text-sm"><FaCarSide className="mr-2 font-bold text-indigo-400 text-lg md:text-xl"/>{garage}</h3>
                   </div>
                 <div className="flex justify-between mt-3 items-center">
-                <h3  className="flex items-center text-lg lg:text-sm"><IoMdBed className="mr-2 font-bold text-indigo-400 text-xl"/>{bedroom}</h3>
-                <h3 className="flex items-center text-lg lg:text-sm"><GiBathtub className="mr-2 font-bold text-indigo-400 text-xl"/>{bathroom}</h3>
+                <h3  className="flex items-center text-lg lg:text-sm"><IoMdBed className="mr-2 font-bold text-indigo-400 text-lg md:text-xl"/>{bedroom}</h3>
+                <h3 className="flex items-center text-lg lg:text-sm"><GiBathtub className="mr-2 font-bold text-indigo-400 text-lg md:text-xl"/>{bathroom}</h3>
                 </div>
              
               </div>
               <div className="flex justify-between border-t mt-5 py-5 px-5">
-                  <h3 className="flex items-center capitalize text-lg lg:text-sm"><FaUserAlt className="mr-2 font-bold text-indigo-400 text-xl"/>{user}</h3>
-                  <h3 className="flex items-center text-lg lg:text-sm"><LuClock10 className="mr-2 font-bold text-indigo-400 text-xl "/>{time}</h3>
+                  <h3 className="flex items-center capitalize text-lg lg:text-sm"><FaUserAlt className="mr-2 font-bold text-indigo-400 text-lg md:text-xl"/>{user}</h3>
+                  <h3 className="flex items-center text-lg lg:text-sm"><LuClock10 className="mr-2 font-bold text-indigo-400 text-lg md:text-xl "/>{time}</h3>
                 </div>
                  </div>
 
