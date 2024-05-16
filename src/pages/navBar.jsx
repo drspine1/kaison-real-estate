@@ -9,7 +9,7 @@ const NavBar = () => {
   const [showNav,setShowNav] =useState(false) 
   return ( 
     <>
-    <header className="w-full h-6rem sticky top-0 left-0 bg-[#0f0f35] z-50 ">
+    <header className="w-full h-6rem fixed top-0 left-0 bg-[#0f0f35] z-50 ">
     <nav className=" p-6 flex justify-between  text-white   relative">
       <div className="logo flex items-center text-xl lg:text-2xl font-semibold uppercase ">
         <MdRealEstateAgent className="text-3xl"/>
@@ -24,7 +24,7 @@ const NavBar = () => {
         <li className="inline-block mx-2 bp:text-2xl text-2xl capitalize font-medium"><NavLink to="/contact" className={({isActive})=> isActive? activeNav : inActive}>contact</NavLink></li>
       </ul>
 
-      <ul className={`nav-links block md:hidden absolute right-0 top-[100%]  bg-indigo-950 w-2/4 h-screen text-center p-5 pt-8 transition duration-500 ${showNav? "right-0":"right-[-100%]"}`}>
+      <ul className={`nav-links block md:hidden absolute right-0 top-[100%]  bg-indigo-950 w-2/4 h-screen text-center p-5 pt-8 transition duration-500 ${showNav? "mr-0":"mr-[-100%]"}`}>
         <li className="block mx-3   text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/">home</Link></li>
         <li className="block mx-3  text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/about">about us</Link></li>
         <li className="block mx-3  text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/buying">buying</Link></li>

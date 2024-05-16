@@ -3,10 +3,10 @@ import {motion} from"framer-motion"
 const AboutB = () => {
   return ( 
     <>
-    <div className="value-quality mt-40 w-[90%] mx-auto text-center grid grid-cols-1 md:grid-cols-2 gap-20">
+    <div className="value-quality mt-40 w-[90%] mx-auto text-center grid grid-cols-1 md:grid-cols-2 gap-20 overflow-hidden">
       <motion.div 
       
-      initial={{x:"-200px",opacity:0}}
+      initial={{x:"-45px",opacity:0}}
       whileInView={{x:0,opacity:1}}
       transition={{delay:0.9,type:"tween",duration:0.5}}
       viewport={{once:true, amount:0.1}}
