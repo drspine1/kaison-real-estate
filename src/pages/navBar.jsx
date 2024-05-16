@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { MdRealEstateAgent } from "react-icons/md";
 import { useState } from "react";
 const NavBar = () => {
-  const activeNav = "text-emerald-300"
+  const activeNav = "text-[#5463b3]"
   const inActive =""
   const [showNav,setShowNav] =useState(false) 
   return ( 
@@ -24,7 +24,7 @@ const NavBar = () => {
         <li className="inline-block mx-2 bp:text-2xl text-2xl capitalize font-medium"><NavLink to="/contact" className={({isActive})=> isActive? activeNav : inActive}>contact</NavLink></li>
       </ul>
 
-      <ul className={`nav-links block md:hidden absolute left-0 top-[100%]  bg-indigo-950 w-2/4 h-screen text-center p-5 pt-8 transition duration-500 ${showNav? "left-0":"left-[-100%]"}`}>
+      <ul className={`nav-links block md:hidden absolute right-0 top-[100%]  bg-indigo-950 w-2/4 h-screen text-center p-5 pt-8 transition duration-500 ${showNav? "right-0":"right-[-100%]"}`}>
         <li className="block mx-3   text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/">home</Link></li>
         <li className="block mx-3  text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/about">about us</Link></li>
         <li className="block mx-3  text-2xl capitalize font-medium mb-4" onClick={()=>setShowNav(false)}><Link to="/buying">buying</Link></li>
